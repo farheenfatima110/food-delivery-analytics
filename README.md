@@ -2,6 +2,11 @@
 
 An executive-level operational intelligence platform and interactive dashboard that transforms raw food delivery telemetry into verified statistical findings, interactive visual diagnostics, data-driven business insights, and AI-synthesized strategic briefs.
 
+<p align="center">
+  <img src="chart1_traffic_vs_time%20(2).png" width="49%" alt="Traffic density vs delivery time">
+  <img src="chart3_weather_traffic_heatmap%20(1).png" width="49%" alt="Weather x traffic heatmap">
+</p>
+
 ---
 
 ## 1. Project Overview
@@ -198,7 +203,7 @@ All questions are answered dynamically through real-time Pandas statistical comp
 ## 14. Project Structure
 
 ```
-Food_Delivery_Analytics/
+food-delivery-analytics/
 ├── app.py                             # Main Streamlit dashboard application
 ├── food_delivery_dataset (1).csv      # Historical delivery telemetry (38,964 rows)
 ├── requirements.txt                   # Production Python package dependencies
@@ -218,7 +223,8 @@ Food_Delivery_Analytics/
 ### Step 1: Open Terminal in Project Directory
 Open PowerShell or Command Prompt in the project folder:
 ```powershell
-cd C:\Users\Home\Desktop\Food_Delivery_Analytics
+git clone https://github.com/farheenfatima110/food-delivery-analytics.git
+cd food-delivery-analytics
 ```
 
 ### Step 2: Install Python Dependencies
